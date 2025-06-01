@@ -1,0 +1,30 @@
+/* static/style.css */
+body {
+    background-image: url("farm.jpg");
+    background-size: cover;
+    font-family: 'Arimo', sans-serif;
+  }
+  
+  .login {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
