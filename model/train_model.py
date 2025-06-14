@@ -1,4 +1,3 @@
-# model/train_model.py
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
@@ -15,5 +14,5 @@ model = RandomForestClassifier()
 model.fit(X_train, y_train)
 
 # Save model
-pickle.dump(model, open("model.pkl", "wb"))
+pickle.dump(model, open("model/model.pkl", "wb"))
 print("✅ Model trained and saved!")
